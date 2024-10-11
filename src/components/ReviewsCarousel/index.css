@@ -1,0 +1,64 @@
+/* Write your code here */
+* {
+  font-family: Roboto;
+}
+
+.review-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 28px;
+}
+.reviews-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.review-item {
+  text-align: center;
+}
+.review-img {
+  width: 80px;
+  height: 80px;
+}
+.review-name {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+}
+.review-company {
+  color: #171f46;
+  font-weight: 500;
+  font-size: 14px;
+}
+.review-description {
+  color: #171f46;
+  font-weight: 400;
+  font-size: 14px;
+  /* text-align: center; */
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+.arrow {
+  width: 20px;
+}
